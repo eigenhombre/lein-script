@@ -12,7 +12,7 @@ Add the latest `lein-exec` and `lein-script` to your
 
 e.g.,
 
-    {:user {:plugins [[lein-script "0.0.2"]
+    {:user {:plugins [[lein-script "0.0.3"]
                       [lein-exec "0.3.1"]}}
 
 ## Usage

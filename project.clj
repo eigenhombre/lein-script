@@ -1,4 +1,4 @@
-(defproject lein-script/lein-script "0.0.2"
+(defproject lein-script/lein-script "0.0.3"
   :description "Leiningen plugin/template for generating stand-alone Clojure scripts"
   :url "http://github.com/eigenhombre/lein-script"
   :license {:name "The MIT License (MIT)"
