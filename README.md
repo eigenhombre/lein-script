@@ -2,12 +2,25 @@
 
 A Leiningen template for creating project-free scripts in Clojure.
 
-You must add [lein-exec](https://github.com/kumarshantanu/lein-exec) to `.lein/profiles.clj` before running scripts that this plugin generates.
+## Setup
 
-Example:
+Add the latest `lein-exec` and `lein-script` to your
+`.lein/profiles.clj`:
 
-    lein new script foo
-    ./foo
+<img src="https://clojars.org/lein-exec/latest-version.svg">
+<img src="https://clojars.org/lein-script/latest-version.svg">
+
+e.g.,
+
+    {:user {:plugins [[lein-script "0.0.1"]
+                      [lein-exec "0.3.1"]}}
+
+## Usage
+
+    $ lein new script foo
+    Generating stand-alone script "foo".
+    $ ./foo
+    Welcome to foo!
 
 You can easily add dependencies in the generated script by uncommenting the appropriate code within.
 
