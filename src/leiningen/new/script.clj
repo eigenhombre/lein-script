@@ -9,6 +9,6 @@
   (binding [leiningen.new.templates/*dir* "."]
     (let [data {:name name
                 :sanitized (name-to-path name)}]
-      (main/info (str (format "Generating stand-alone script \"%s\".  " (:sanitized data))))
+      (main/info (format "Generating stand-alone script \"%s\".  " (:sanitized data)))
       (->files data
                ["{{sanitized}}" (render "template.clj" data) :executable true]))))
