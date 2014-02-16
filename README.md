@@ -24,6 +24,11 @@ e.g.,
 
 You can easily add dependencies in the generated script by uncommenting the appropriate code within.
 
+## See also:
+
+1. [lein-exec](https://github.com/kumarshantanu/lein-exec)
+1. [Dead simple scripts in Clojure](http://eigenhombre.com/2014/02/16/dead-simple-one-file-scripts-in-clojure/)
+
 ## License
 
 Copyright © 2014 John Jacobsen.  MIT License (see LICENSE).
