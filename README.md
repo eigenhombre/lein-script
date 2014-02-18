@@ -4,16 +4,9 @@ A Leiningen template for creating project-free scripts in Clojure.
 
 ## Setup
 
-Add the latest `lein-exec` and `lein-script` to your
-`.lein/profiles.clj`:
+Add the latest `lein-exec` to your `.lein/profiles.clj`, e.g.:
 
-<img src="https://clojars.org/lein-exec/latest-version.svg">
-<img src="https://clojars.org/lein-script/latest-version.svg">
-
-e.g.,
-
-    {:user {:plugins [[lein-script "0.0.5"]
-                      [lein-exec "0.3.1"]]}}
+    {:user {:plugins [[lein-exec "0.3.1"]]}}
 
 ## Usage
 
