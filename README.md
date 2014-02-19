@@ -11,6 +11,8 @@ Add the latest `lein-exec` to your `.lein/profiles.clj`, e.g.:
 Then add a `lein-exec` script to some directory on your 
 path (I put mine in `~/bin`), with the following contents:
 
+    #!/usr/bin/env lein-exec
+    lein exec @$
     
 ## Usage
 
